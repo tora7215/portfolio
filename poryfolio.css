@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+  
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    font-size: 14pt;
+    font-feature-settings: "palt";
+    --dark-087: rgba(0,0,0,0.87);
+    --dark-054: rgba(0,0,0,0.54);
+    --dark-026: rgba(0,0,0,0.26);
+    --dark-012: rgba(0,0,0,0.12);
+    --light-100: rgba(255,255,255,1.00);
+    --light-070: rgba(255,255,255,0.70);
+    --light-030: rgba(255,255,255,0.30);
+    --light-012: rgba(255,255,255,0.12);
+    --gray-010: #f1f1f1;
+    --gray-020: #e4e4e4;
+
+  --primary-050: #d7da1f;
+  --secondary-050: #d7da1f;
+  --base-bg: var(--dark-087);
+  --text-color: var(--primary-050);
+  
+  --section-margin: 120px;
+  }  
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--base-bg);
+  }
+
+  header h1 {
+    color: #f1f1f1;
+    text-align: center;
+    position: relative;
+  }
+
+  header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  header ul li a {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    color: var(--light-100);
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  header ul li a:hover,
+  header ul li a:active {
+    color: var(--light-100);
+    background-color: var(--primary-050);
+  }
