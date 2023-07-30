@@ -154,7 +154,7 @@ text-align: center;
   color: #f1f1f1;
   background-color: rgb(68, 68, 241);
   border-radius: 10px;
-  padding-bottom: 200px;
+  padding-bottom: 170px;
 }
 
 .meisi {
@@ -174,10 +174,11 @@ text-align: center;
   color: #f1f1f1;
   background-color: rgb(68, 68, 241);
   border-radius: 10px;
+  padding-bottom: 230px;
 }
 
 .aqua {
-  width: 25%;
+  width: 20%;
   margin-top: 10px;
   margin-left: 10px;
   float: left;
@@ -186,7 +187,7 @@ text-align: center;
 .aqua2 {
   margin-left: 10px;
   margin-top: 10px;
-  width: 25%;
+  width: 20%;
   float: left;
 }
 
@@ -198,9 +199,26 @@ text-align: center;
   color: #f1f1f1;
   background-color: rgb(68, 68, 241);
   border-radius: 10px;
+  padding-bottom: 360px;
 }
 
 .suitou {
-  width: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 25%;
+  margin-right: 20px;
   float: left;
+}
+
+.actitle {
+  font-size: 300%;
+  text-align: center;
+  padding: 0%;
+}
+
+.access {
+  padding: 20px;
+  padding: var(--section-margin) 2rem;
+  background-color: aquamarine;
+  margin: 5px;
 }
