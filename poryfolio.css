@@ -88,6 +88,7 @@ header {
   padding: 20px;
   padding: var(--section-margin) 2rem;
   background-color: aquamarine;
+  margin: 5px;
 }
 
 
@@ -134,18 +135,71 @@ text-align: center;
   text-align: center;
 }
 
+.wtitle {
+  font-size: 300%;
+  text-align: center;
+  padding: 0%;
+}
+
+.works {
+  margin: 5px;
+  padding: 20px;
+  padding: var(--section-margin) 2rem;
+  background-color: aquamarine;
+}
+
+.work1 {
+  width: 100%;
+  font-size: 200%;
+  color: #f1f1f1;
+  background-color: rgb(68, 68, 241);
+  border-radius: 10px;
+}
+
 .meisi {
-    width: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 50%;
+}
+.setumei1 {
+  float:right;
+}
+
+.work2 {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  font-size: 200%;
+  color: #f1f1f1;
+  background-color: rgb(68, 68, 241);
+  border-radius: 10px;
 }
 
 .aqua {
   width: 25%;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
 }
 
 .aqua2 {
+  margin-left: 10px;
+  margin-top: 10px;
   width: 25%;
+  float: left;
+}
+
+.work3 {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  font-size: 200%;
+  color: #f1f1f1;
+  background-color: rgb(68, 68, 241);
+  border-radius: 10px;
 }
 
 .suitou {
   width: 50%;
+  float: left;
 }
