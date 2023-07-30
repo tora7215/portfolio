@@ -70,6 +70,19 @@ header {
     position: relative;
 }
 
-.cube {
+.meisi {
     width: 50%;
+}
+
+.aqua {
+  width: 25%;
+}
+
+.aqua2 {
+  width: 25%;
+  margin-left: 25%;
+}
+
+.suitou {
+  width: 50%;
 }
