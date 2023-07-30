@@ -21,6 +21,7 @@ html {
   --text-color: var(--primary-050);
   
   --section-margin: 120px;
+  background-color: aqua;
   }  
 
 header {
@@ -68,6 +69,69 @@ header {
     z-index: 1;
     margin-left: 0%;
     position: relative;
+}
+.stitle {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  z-index: 10;
+  font-size: 300%;
+}
+
+.atitle {
+  font-size: 300%;
+  text-align: center;
+  padding: 0%;
+}
+
+.about {
+  padding: 20px;
+  padding: var(--section-margin) 2rem;
+  background-color: aquamarine;
+}
+
+
+.aboutl {
+  color: #f1f1f1;
+  width: 49%;
+  float: left;
+  margin-top: -20px;
+  background-color: rgb(68, 68, 241);
+  border-radius: 10px;
+}
+
+
+.aboutr {
+  margin-left: 50%;
+  margin-top: -20px;
+  color: #f1f1f1;
+  width: 49%;
+  background-color: rgb(68, 68, 241);
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 57px;
+}
+
+.asub {
+  margin-top: -50px;
+text-align: center;
+}
+
+.name {
+  font-size: 200%;
+  text-align: center;
+}
+
+.namae {
+  font-size: 300%;
+  text-align: center;
+}
+
+.soft {
+  margin-top: -20px;
+  margin-left: 5px;
+  font-size: 150%;
+  text-align: center;
 }
 
 .meisi {
